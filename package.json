@@ -1,0 +1,9 @@
+{
+  "name": "event-sync",
+  "version": "1.0.0",
+  "author": "Anh Mai <theanht1k20@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "truffle-hdwallet-provider": "^0.0.6"
+  }
+}
