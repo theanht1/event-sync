@@ -7,14 +7,14 @@ contract EventSync {
     uint public id1;
     uint public id2;
 
-    function emitevent1(uint times) public {
+    function emitEvent1(uint times) public {
         for (uint i = 0; i < times; i++) {
             emit Event1(id1);
             id1++;
         }
     }
 
-    function emitevent2(uint times) public {
+    function emitEvent2(uint times) public {
         for (uint i = 0; i < times; i++) {
             emit Event2(id2);
             id2++;
